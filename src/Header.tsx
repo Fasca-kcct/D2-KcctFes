@@ -17,11 +17,11 @@ const Header = () => {
 			<h1 className={css`
 				text-align: center;
 				margin-top: 40px;
-			`}>Target Shoot</h1>
+			`}>Target Shooting</h1>
 			<div className={css`
 				display: flex;
 				justify-content: center;
-				margin-top: 80px;
+				margin-top: 40px;
 			`}>
 				<div className={css`
 					margin-right: 15px;

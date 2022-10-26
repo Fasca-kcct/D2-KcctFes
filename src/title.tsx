@@ -7,29 +7,24 @@ const Title = () => {
         <>
         <div className={css`
             position: relative;
-            margin-top: 50px;
+            margin-top: 30px;
         `}>
             <div className={css`
-            color: #ffffff;
+            color: #000000;
             font-size: 24px;
-            position: absolute;
             left: 25%;
             right: 25%;
             text-align: center;
-            margin-top: 80px;
-            -webkit-text-stroke: 1px #000;
+            margin-top: 40px;
             `}>
             <h2 className={css`
-                font-size: 50px;
-            `}>D2 クラス展示</h2>
+                font-size: 40px;
+            `}>クラス展示</h2>
             <h2 className={css`
-                font-size:  50px;
+                font-size:  40px;
             `}
             >射的</h2>
             </div>
-            <img src="../kcct-image.jpg" alt="image" className={css`
-                width: 100%;
-            `} />
             
         </div>
         </>
