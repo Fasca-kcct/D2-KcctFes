@@ -5,29 +5,21 @@ import { Button } from "react-bootstrap";
 
 
 const Header = () => {
-	const returnTop = () => {
-		window.scrollTo({
-			top: 0,
-			behavior: "smooth",
-		});
-	};
+	
 	
 	return (
 		<>
 			<h1 className={css`
 				text-align: center;
 				margin-top: 40px;
+				font-size: 250%;
 			`}>Target Shooting</h1>
 			<div className={css`
 				display: flex;
 				justify-content: center;
 				margin-top: 40px;
 			`}>
-				<div className={css`
-					margin-right: 15px;
-				`}>
-				<Button variant="outline-secondary" onClick={returnTop}>Top</Button>{' '}
-				</div>
+				
 				<div className={css`
 					margin-right: 15px;
 				`}>

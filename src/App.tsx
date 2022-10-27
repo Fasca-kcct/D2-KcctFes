@@ -4,6 +4,8 @@ import { css } from "@emotion/css"
 import Title from "./title";
 import Footer from "./Footer";
 import Introduction from "./Introduction";
+import Rule from "./Rule";
+import Prize from "./Prize";
 import "./App.css"
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         border-top: 2px dotted;
       `} />
       <Introduction />
+      <Rule />
+      <Prize />
       <Footer />
     </>
   )
