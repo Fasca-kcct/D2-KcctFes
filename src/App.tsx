@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Introduction from "./Introduction";
 import Rule from "./Rule";
 import Prize from "./Prize";
+import Finish from "./Finish";
 import "./App.css"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Introduction />
       <Rule />
       <Prize />
+      <Finish />
       <Footer />
     </>
   )

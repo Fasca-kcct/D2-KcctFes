@@ -28,7 +28,7 @@ const Prize = () => {
                 <img src="../prizes.jpg" alt="prize" className={css`
                     height: 50%;
                     width: 50%;
-                    margin-bottom: 100px;
+                    margin-bottom: 50px;
                 `}/>
             </div>
         </>
