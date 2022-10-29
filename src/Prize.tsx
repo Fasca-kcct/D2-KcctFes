@@ -22,13 +22,15 @@ const Prize = () => {
                         font-size: 100%;
                         font-weight: bold;
                         display: inline-block;
+                        margin-right: 10px;
                 `}>
-                80点(理論値) ゲームソフト，ヘッドホン，イヤホン
+                80点 ゲームソフト，ヘッドホン，イヤホン
                 </p>
                 <img src="../prizes.jpg" alt="prize" className={css`
-                    height: 50%;
-                    width: 50%;
+                    height: 30%;
+                    width: 30%;
                     margin-bottom: 50px;
+                    margin-top: 20px;
                 `}/>
             </div>
         </>

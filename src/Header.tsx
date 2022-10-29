@@ -35,6 +35,9 @@ const Header = () => {
 				`}>
 				<Button variant="outline-secondary" href="http://www.kobe-kosen.ac.jp/groups/denshi/">電子工学科</Button>{' '}
 				</div>
+				<div>
+				<Button variant="outline-secondary" href="https://d3bu.net">電算部</Button>{' '}
+				</div>
 			</div>
 		</>
 	)
