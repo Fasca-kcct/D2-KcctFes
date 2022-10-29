@@ -26,7 +26,7 @@ const Prize = () => {
                 `}>
                 80点 ゲームソフト，ヘッドホン，イヤホン
                 </p>
-                <img src="../prizes.jpg" alt="prize" className={css`
+                <img src="prizes.jpg" alt="prize" className={css`
                     height: 30%;
                     width: 30%;
                     margin-bottom: 50px;
